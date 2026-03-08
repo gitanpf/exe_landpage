@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Tech Talks</title>
+    <link href="#" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/acnh.png" alt="Logo do jogo Animal Crossing: New Horizons">
+            <p class="hero__text">O evento começa em:</p>
+            <p class="hero__text">
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item"><b>Localização</b>Pearland - Ilha da Ane</li>
+                    <li class="infos-bar__infos__item"><b>Preço</b>R$ 0800</li>
+                    <li class="infos-bar__infos__item"><b>Quando</b>01/04/2026 às 10hrs</li>
+                </ul>
+                <a href="#" class="button button--primary">Estarei lá!</a>
+            </div>
+        </div>
+    </header>
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Isabelle comandando a festa!</h2>
+                <p class="event__details__description">
+                    A querida apresentadora Isabelle, conhecida por seus anúncios diários e por ajudar os moradores a manter suas ilhas organizadas em Animal Crossing: New Horizons, foi anunciada como presença especial em um evento de aniversário que acontecerá na ilha personalizada Pearland. Segundo os organizadores da celebração dentro do jogo, Isabelle fará uma participação comemorativa dando as boas-vindas aos visitantes, realizando anúncios festivos e participando de atividades preparadas pelos moradores da ilha, como apresentações, decoração temática e sessões de fotos virtuais. O evento promete reunir diversos jogadores e amigos da comunidade para celebrar mais um ano da ilha Pearland, transformando a ocasião em um momento especial de confraternização no universo criativo e acolhedor do jogo.
+                </p>
+            </div>
+            <img class="event__image" src="./images/Isabelle_AF.png" alt="Imagem da personagem Isabelle da franquia de jogos Animal Crossing.">
+        </div>
+    </section>
+    <section class="event event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Os Nooks com preços imperdíveis!</h2>
+                <p class="event__details__description">
+                    A famosa loja Nook's Cranny, administrada pelos irmãos Timmy e Tommy, marcará presença em um evento especial de aniversário que será realizado dentro de Animal Crossing: New Horizons na ilha personalizada Pearland. Para celebrar a data, a loja oferecerá uma seleção temática de itens festivos, decorações exclusivas e promoções especiais em ferramentas e móveis populares entre os moradores da ilha. De acordo com os organizadores do evento, a participação da Nook’s Cranny faz parte das atividades comemorativas preparadas para reunir visitantes e moradores em um ambiente festivo, incentivando trocas, compras e muita interação durante a celebração virtual que promete transformar Pearland em um verdadeiro centro de comemoração dentro do jogo.
+                </p>
+            </div>
+            <img class="event__image" src="./images/nooks.png" alt="Fotografia de uma cena de um picnic de aniversário no jogo Animal Crossing: New Horizons.">
+        </div>
+    </section>
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Primeiro dia da Cherry Blossom Season</h2>
+                <p class="event__details__description">
+                    O tão aguardado primeiro dia da Cherry Blossom chegou em Animal Crossing: New Horizons, trazendo cores vibrantes e pétalas rosa que enfeitam toda a ilha. Durante o evento, jogadores poderão coletar pétalas de cerejeira, criar móveis e decorações exclusivas inspiradas nas árvores floridas e participar de atividades sazonais com seus vizinhos virtuais. Segundo a equipe de desenvolvimento, esta celebração marca o início da temporada de primavera no jogo, incentivando os moradores a explorarem suas ilhas e compartilharem momentos fotográficos únicos sob as árvores em flor. A Cherry Blossom promete transformar o ambiente de Animal Crossing: New Horizons em um verdadeiro espetáculo visual, trazendo diversão e charme para todos os jogadores.
+                </p>
+            </div>
+            <img class="event__image" src="./images/cerejeira.png" alt="Fotografia de uma praça com estilo oriental no jogo Animal Crossing: New Horizons.">
+        </div>
+    </section>
+    <section class="event event--image-left">    
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">E muitos itens para você levar para a sua ilha!</h2>
+                <p class="event__details__description">
+                    Os jogadores de Animal Crossing: New Horizons já podem se preparar para levar para suas ilhas uma seleção especial de itens da festa de aniversário de Pearland. Entre os destaques estão balões coloridos, mesas decorativas, chapéus festivos, bolos temáticos e bandeirolas animadas, todos inspirados na comemoração virtual do evento. Segundo os organizadores, esses itens exclusivos podem ser usados para montar áreas de festa personalizadas, tirar fotos com amigos e criar cenários únicos, permitindo que cada jogador transforme sua ilha em um verdadeiro centro de celebração. A coleção promete não apenas decorar as ilhas, mas também incentivar a criatividade e a interação entre os moradores durante toda a temporada de festividades.
+                </p>
+            </div>
+            <img class="event__image" src="./images/cerejeira2.png" alt="Fotografia da entrada de um templo oriental no jogo Animal Crossing: New Horizons.">
+        </div>
+    </section>
+    <div id="app">
+        <dialogue>
+            <span slot="character">K.K.</span>
+            Estaremos te esperando!
+        </dialogue>
+    </div>
+    <template id="dialogue">
+        <div class="dialogue">
+            <div class="dialogue-blobs">
+                <div class="dialogue-blob-top"></div>
+                <div class="dialogue-blob-bottom"></div>
+                <dialogue-text>
+                    <slot></slot>
+                </dialogue-text>
+            </div>
+            <div class="dialogue-character-wrap">
+                <div class="dialogue-character">
+                    <slot name="character"></slot>
+                </div>
+            </div>
+            <svg class="arrow" width="45" height="25" viewBox="0 0 45 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.5 25C18.0184 25 7.59473 12.6404 1.55317 4.96431C-0.122281 2.83559 1.72264 -0.179893 4.39835 0.243337C10.2831 1.17415 18.2164 2.28736 22.5 2.28736C26.7836 2.28736 34.7169 1.17415 40.6017 0.243339C43.2774 -0.17989 45.1223 2.83559 43.4468 4.96431C37.4053 12.6404 26.9816 25 22.5 25Z" fill="#F1AE04"/>
+            </svg>
+        </div>
+    </template>
+    <template id="dialogue-text">
+        <div class="dialogue-text">{{displayedText}}</div>
+    </template>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
