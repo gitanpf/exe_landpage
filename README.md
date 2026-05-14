@@ -18,3 +18,5 @@ Esta página foi construída para aplicar conceitos avançados de **Design de In
 * **JavaScript (ES6+):** Manipulação de datas e lógica do contador.
 * **HTML5 & CSS3:** Estrutura semântica e estilização avançada.
 * **Mobile-First:** Estratégia de desenvolvimento focada inicialmente em dispositivos móveis.
+
+* Link: https://gitanpf.github.io/exe_landpage/
