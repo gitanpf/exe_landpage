@@ -1,27 +1,20 @@
-# ⚖️ Minimalist IMC Calculator | Vite + JS
+# 📅 Event Landing Page | Vite + JavaScript
 
-Uma calculadora de Índice de Massa Corporal (IMC) com design minimalista e foco total na experiência do usuário. O projeto utiliza JavaScript assíncrono para processar e exibir o resultado dinamicamente na tela à medida que o usuário insere seus dados.
+Uma Landing Page moderna e de alta conversão desenvolvida para um evento fictício. O projeto foca em uma experiência de usuário imersiva, utilizando um sistema de contagem regressiva em tempo real para gerar senso de urgência e engajamento.
 
 ## 🚀 Sobre o Projeto
 
-O objetivo deste projeto foi criar uma ferramenta rápida, fluida e visualmente "clean". A aplicação elimina a necessidade de recarregar a página, oferecendo um feedback visual imediato conforme o peso e a altura são preenchidos.
+Esta página foi construída para aplicar conceitos avançados de **Design de Interface (UI)** e manipulação dinâmica do DOM. O grande destaque é o contador regressivo que calcula automaticamente o tempo restante para o início do evento.
 
-### Principais Diferenciais:
-*   **Cálculo Dinâmico:** O resultado é atualizado em tempo real no DOM sem interrupções.
-*   **Design Minimalista:** Interface limpa, com tons pastéis e estética "soft", priorizando a clareza dos dados.
-*   **Performance Vite:** Estrutura leve e carregamento instantâneo garantidos pelo ecossistema Vite.
-*   **Responsividade:** Layout adaptável para qualquer tamanho de tela, do mobile ao desktop.
+### Diferenciais:
+* **Countdown Timer:** Lógica em JavaScript que atualiza dias, horas, minutos e segundos.
+* **Performance com Vite:** Ambiente de desenvolvimento ultra-rápido e build otimizado.
+* **Design Responsivo:** Interface adaptada para smartphones, tablets e desktops através de Grid e Flexbox.
+* **Estética Minimalista:** Uso de tipografia moderna e hierarquia visual clara.
 
 ## 🛠️ Tecnologias Utilizadas
 
-*   **Vite:** Ferramenta de build de última geração para um desenvolvimento ágil.
-*   **JavaScript (ES6+):** Lógica de cálculo e manipulação dinâmica de elementos do DOM.
-*   **HTML5 & CSS3:** Estrutura semântica e estilização moderna com Flexbox/Grid.
-*   **Mobile-First:** Desenvolvimento focado na melhor experiência em dispositivos móveis.
-
-## ⚙️ Como Funciona o Cálculo
-
-A aplicação utiliza a fórmula padrão de IMC:
-$$IMC = \frac{peso}{altura^2}$$
-
-Além do valor numérico, a interface retorna a classificação correspondente (Abaixo do peso, Peso normal, Sobrepeso, etc.) de forma visual.
+* **Vite:** Ferramenta de build de próxima geração.
+* **JavaScript (ES6+):** Manipulação de datas e lógica do contador.
+* **HTML5 & CSS3:** Estrutura semântica e estilização avançada.
+* **Mobile-First:** Estratégia de desenvolvimento focada inicialmente em dispositivos móveis.
